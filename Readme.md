@@ -1,5 +1,7 @@
 # FP time minutes
 
+2019-11-19: Property-based testing. We watched and discussed [Brian Gesiak - Functional Testing](https://www.youtube.com/watch?v=-TOp5-uComQ)
+
 2019-11-12: An exercise in API design. More specifically, can we make the PURR library easier to test/override? We talked about different ways change it and their pros & cons. [2019-11-12 API discussion.txt](https://github.com/loganmoseley/functional-minutes/files/3860767/2019-11-12.API.discussion.txt)
 
 2019-09-25: After some time off, we get back with pullbacks. [Pullback.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860766/Pullback.playground.zip)
