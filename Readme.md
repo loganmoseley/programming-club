@@ -1,5 +1,7 @@
 # FP time minutes
 
+2019-12-03: Coordinating local & network data fetching. Kevin brought up the "repository pattern." Logan brought up composable caching, as in [Brandon Kase's talk](https://www.youtube.com/watch?v=jxnDfU8ssK0).
+
 2019-11-19: Property-based testing. We watched and discussed [Brian Gesiak - Functional Testing](https://www.youtube.com/watch?v=-TOp5-uComQ)
 
 2019-11-12: An exercise in API design. More specifically, can we make the PURR library easier to test/override? We talked about different ways change it and their pros & cons. [2019-11-12 API discussion.txt](https://github.com/loganmoseley/functional-minutes/files/3860767/2019-11-12.API.discussion.txt)
