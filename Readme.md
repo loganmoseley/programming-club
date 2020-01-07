@@ -1,5 +1,7 @@
 # FP time minutes
 
+2020-01-07: First session of the new! We watched and discussed the first episode of [Point-Free's SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1) from last July. We'll do the exercises for homework and talk about them next time.
+
 2019-12-03: Coordinating local & network data fetching. Kevin brought up the "repository pattern." Logan brought up composable caching, as in [Brandon Kase's talk](https://www.youtube.com/watch?v=jxnDfU8ssK0).
 
 2019-11-19: Property-based testing. We watched and discussed [Brian Gesiak - Functional Testing](https://www.youtube.com/watch?v=-TOp5-uComQ)
