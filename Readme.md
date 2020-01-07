@@ -1,3 +1,5 @@
+I run a functional programming weekly meeting called "FP time" at The New York Times. These are their stories.
+
 # FP time minutes
 
 2020-01-07: First session of the new! We watched and discussed the first episode of [Point-Free's SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1) from last July. We'll do the exercises for homework and talk about them next time.
