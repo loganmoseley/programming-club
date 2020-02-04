@@ -1,6 +1,20 @@
-I run a functional programming weekly meeting called "FP time" at The New York Times. These are their stories.
+I run a functional programming weekly meeting called "FP Club" at The New York Times. We started 2020 by diving into SwiftUI. These are their stories.
 
-# FP time minutes
+# SwiftUI Club minutes
+
+2020-02-04: Switched to Paul Hudson's _SwiftUI by Example_ book, since it seems more appropriate for our novice SwiftUI level :) We did the first three pages of [Building a complete project](https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project).
+
+2020-01-28: Welcome all the new people!
+
+We watched and discussed the first episode of [Point-Free's SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1). Follow along at home to get some SwiftUI under your fingers, or take a look at the playground: [2020-01-28 - Point-Free #65 StateManagement.playground.zip](https://github.com/nytm/ios-swift-foundation/files/4124565/2020-01-28.-.Point-Free.65.StateManagement.playground.zip).
+
+2020-01-14: We did the first couple [exercises](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1#exercises) in Point-Free episode 65.
+
+2020-01-07: New year, new huge topic!
+
+We watched and discussed the first episode of [Point-Free's SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1) from last July. We'll do the exercises for homework and talk about them next time.
+
+# FP Club minutes
 
 2020-01-07: First session of the new! We watched and discussed the first episode of [Point-Free's SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1) from last July. We'll do the exercises for homework and talk about them next time.
 
