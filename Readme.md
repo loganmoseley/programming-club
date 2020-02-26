@@ -2,6 +2,8 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
+2020-02-18: Starting [here](https://www.hackingwithswift.com/quick-start/swiftui/adding-tabview-and-tabitem) we learned about creating TabViews, using @State bindings, Form views, two-way bindings, and formatted string interpolation. We ended at the end of [here](https://www.hackingwithswift.com/quick-start/swiftui/formatting-interpolated-strings-in-swiftui).
+
 2020-02-11: Starting [here](https://www.hackingwithswift.com/quick-start/swiftui/polishing-designs-with-fonts-and-colors) we learned about view styling, ZStack and some of SwiftUI data pipeline: environment objects and `@Published`. We ended at the end of [here](https://www.hackingwithswift.com/quick-start/swiftui/adding-items-to-an-order-with-environmentobject): [iDine 2020-02-11.zip](https://github.com/loganmoseley/functional-minutes/files/4188321/iDine.2020-02-11.zip).
 
 2020-02-04: Switched to Paul Hudson's _SwiftUI by Example_ book, since it seems more appropriate for our novice SwiftUI level :) We did the first three pages of [Building a complete project](https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project).
