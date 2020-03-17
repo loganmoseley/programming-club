@@ -2,13 +2,13 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
-2020-03-17: We worked through Apple's second tutorial on SwiftUI: [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation). It was kinda boring, but only because this is the third or fourth time we've done lists! We also saw how to change previews within in PreviewProvider.
+2020-03-17: We worked through Apple’s second tutorial on SwiftUI: [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation). It was kinda boring, but only because this is the third or fourth time we’ve done lists! We also saw how to change previews within in PreviewProvider.
 
-2020-03-10: We worked through Apple's [first tutorial](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views) in their series of SwiftUI intro tutorials that launched at WWDC. We also looked at Paul Hudson's [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/), but it seemed too "bottom-up," in the sense that it had detailed information on each component, but lacked a more holistic view of how to build more complete things.
+2020-03-10: We worked through Apple’s [first tutorial](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views) in their series of SwiftUI intro tutorials that launched at WWDC. We also looked at Paul Hudson’s [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/), but it seemed too "bottom-up," in the sense that it had detailed information on each component, but lacked a more holistic view of how to build more complete things.
 
 We also mentioned:
 
-- Paul Hudson's [100 Days of SwiftUI](https://www.hackingwithswift.com/100/), a series of medium-complexity tutorials that build on each other to teach you how to make a few simple apps and games.
+- Paul Hudson’s [100 Days of SwiftUI](https://www.hackingwithswift.com/100/), a series of medium-complexity tutorials that build on each other to teach you how to make a few simple apps and games.
 - [`UIViewPreviewProvider`](https://github.com/mrabiciu/UIViewPreviewProvider), an open-source repo that lets you use SwiftUI previews while developing non-SwiftUI apps.
 - An [NSHipster Post](https://nshipster.com/swiftui-previews/) on a similar idea of using SwiftUI previews in non-SwiftUI development, but with a different approach. Somewhere between these two lies a nice and usable system ;)
 
@@ -20,23 +20,23 @@ We also mentioned:
 
 2020-02-11: Starting [here](https://www.hackingwithswift.com/quick-start/swiftui/polishing-designs-with-fonts-and-colors) we learned about view styling, ZStack and some of SwiftUI data pipeline: environment objects and `@Published`. We ended at the end of [here](https://www.hackingwithswift.com/quick-start/swiftui/adding-items-to-an-order-with-environmentobject): [iDine 2020-02-11.zip](https://github.com/loganmoseley/functional-minutes/files/4188321/iDine.2020-02-11.zip).
 
-2020-02-04: Switched to Paul Hudson's _SwiftUI by Example_ book, since it seems more appropriate for our novice SwiftUI level :) We did the first three pages of [Building a complete project](https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project).
+2020-02-04: Switched to Paul Hudson’s _SwiftUI by Example_ book, since it seems more appropriate for our novice SwiftUI level :) We did the first three pages of [Building a complete project](https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project).
 
 2020-01-28: Welcome all the new people!
 
-We watched and discussed the first episode of [Point-Free's SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1). Follow along at home to get some SwiftUI under your fingers, or take a look at the playground: [2020-01-28 - Point-Free #65 StateManagement.playground.zip](https://github.com/nytm/ios-swift-foundation/files/4124565/2020-01-28.-.Point-Free.65.StateManagement.playground.zip).
+We watched and discussed the first episode of [Point-Free’s SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1). Follow along at home to get some SwiftUI under your fingers, or take a look at the playground: [2020-01-28 - Point-Free #65 StateManagement.playground.zip](https://github.com/nytm/ios-swift-foundation/files/4124565/2020-01-28.-.Point-Free.65.StateManagement.playground.zip).
 
 2020-01-14: We did the first couple [exercises](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1#exercises) in Point-Free episode 65.
 
 2020-01-07: New year, new huge topic!
 
-We watched and discussed the first episode of [Point-Free's SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1) from last July. We'll do the exercises for homework and talk about them next time.
+We watched and discussed the first episode of [Point-Free’s SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1) from last July. We’ll do the exercises for homework and talk about them next time.
 
 # FP Club minutes
 
-2020-01-07: First session of the new! We watched and discussed the first episode of [Point-Free's SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1) from last July. We'll do the exercises for homework and talk about them next time.
+2020-01-07: First session of the new! We watched and discussed the first episode of [Point-Free’s SwiftUI series](https://www.pointfree.co/episodes/ep65-swiftui-and-state-management-part-1) from last July. We’ll do the exercises for homework and talk about them next time.
 
-2019-12-03: Coordinating local & network data fetching. Kevin brought up the "repository pattern." Logan brought up composable caching, as in [Brandon Kase's talk](https://www.youtube.com/watch?v=jxnDfU8ssK0).
+2019-12-03: Coordinating local & network data fetching. Kevin brought up the "repository pattern." Logan brought up composable caching, as in [Brandon Kase’s talk](https://www.youtube.com/watch?v=jxnDfU8ssK0).
 
 2019-11-19: Property-based testing. We watched and discussed [Brian Gesiak - Functional Testing](https://www.youtube.com/watch?v=-TOp5-uComQ)
 
@@ -47,7 +47,7 @@ We watched and discussed the first episode of [Point-Free's SwiftUI series](http
 2019-08-13: Once more with monoid: structs! 👩🏽‍⚖️ Trying out constructing legal requirements. 👨🏼‍⚖️ [Monoid+.playground](https://github.com/loganmoseley/functional-minutes/files/3860765/FP.2019-08-13.Monoid%2B.playground.zip).
 - Also, at the very end Eric suggested it should be possible to **compose** monoids. I submit to you, [Monoid zip.playground](https://github.com/loganmoseley/functional-minutes/files/3860764/FP.2019-08-13.Monoid.zip.playground.zip)
 
-2019-08-06: Extended the 'reduce' conversation to 'monoid', a useful concept for talking about making one thing out of many things, or, “Out of many, one." [Monoid.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860763/Monoid.playground.zip)
+2019-08-06: Extended the “reduce” conversation to “monoid”, a useful concept for talking about making one thing out of many things, or, “Out of many, one." [Monoid.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860763/Monoid.playground.zip)
 
 2019-07-31: Intuition for `reduce` [Intuition for reduce.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860762/Intuition.for.reduce.playground.zip)
 
@@ -59,9 +59,9 @@ We watched and discussed the first episode of [Point-Free's SwiftUI series](http
 
 2019-07-02: We explore a couple uses in code of `curry`--partially applying functions. [curry in code.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860759/curry.in.code.playground.zip) We also said a few:
 - In a factory pattern
-- Recording a user's plays, then scores
+- Recording a user’s plays, then scores
 - Passing a token to an SDK
-- Any async sequence, like user input that's designed as two steps
+- Any async sequence, like user input that’s designed as two steps
 - Calling `map`
 
 2019-06-23: Methods are functions in disguise. Plus, [“currying”](https://stackoverflow.com/questions/36314/what-is-currying#36321). [Methods are functions; currying.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860758/Methods.are.functions.currying.playground.zip)
@@ -92,7 +92,7 @@ We watched and discussed the first episode of [Point-Free's SwiftUI series](http
 
 2019-04-16: Last week was “zip” for Array. On the 16th we extended “zip” to Optional. One concept, two types? What does it mean?? [zip for Optional.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860752/zip.for.Optional.playground.zip)
 
-2019-04-09: What's the deal with `Swift.zip` and [`PointFreeCo.zip(with:)`](https://www.pointfree.co/episodes/ep23-the-many-faces-of-zip-part-1)? Let's show how they’re related and why they're both called "zip". [zip.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860751/zip.playground.zip)
+2019-04-09: What’s the deal with `Swift.zip` and [`PointFreeCo.zip(with:)`](https://www.pointfree.co/episodes/ep23-the-many-faces-of-zip-part-1)? Let’s show how they’re related and why they’re both called "zip". [zip.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860751/zip.playground.zip)
 
 2019-04-02: Read through [What the heck is polymorphism?](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh) with some examples in Swift: [what the heck is polymorphism.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860750/what.the.heck.is.polymorphism.playground.zip). Jim drew the [subtyping relationships](https://github.com/loganmoseley/functional-minutes/files/3860749/subtyping-relationships.pdf).
 
@@ -100,17 +100,17 @@ We watched and discussed the first episode of [Point-Free's SwiftUI series](http
 
 2019-03-19: ROP examples in Swift. Big thanks to Jim for the translation. [FP-20190319 redacted.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860747/FP-20190319.redacted.playground.zip)
 
-2019-03-12: “Railway Oriented Programming” with Scott Wlaschin. [video](https://vimeo.com/97344498), [site & slides](https://fsharpforfunandprofit.com/rop/). The day's playground: [FP-20190312.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860746/FP-20190312.playground.zip)
+2019-03-12: “Railway Oriented Programming” with Scott Wlaschin. [video](https://vimeo.com/97344498), [site & slides](https://fsharpforfunandprofit.com/rop/). The day’s playground: [FP-20190312.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860746/FP-20190312.playground.zip)
 
 2019-03-05: What would the "Environment" style dependency injection look like in Crossword? Jim guided us through the very first bits. Point-Free [ep16](https://www.pointfree.co/episodes/ep16-dependency-injection-made-easy) & [ep18](https://www.pointfree.co/episodes/ep18-dependency-injection-made-comfortable).
 
-2019-02-26: Jim tied together Swift sugar and functions & ideas we've been talking about. Definitely review the playground! [FP-20190226.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860745/FP-20190226.playground.zip)
+2019-02-26: Jim tied together Swift sugar and functions & ideas we’ve been talking about. Definitely review the playground! [FP-20190226.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860745/FP-20190226.playground.zip)
 
 2019-02-19: map, flatMap, compose, etc. Review because it helps :)
 
 2019-02-12: Newsreader team wrapping up the ‘Home’ project, so this time was Crossword people looking at Crossword examples.
 
-2019-01-15: Brian Green joins up! Diagrammed `map` with colors, which seemed to help a lot. We're slowly starting to see how it's not just another way to write a for-loop. More to come.
+2019-01-15: Brian Green joins up! Diagrammed `map` with colors, which seemed to help a lot. We’re slowly starting to see how it’s not just another way to write a for-loop. More to come.
 
 2019-01-08: Izza joins us! Refresher day. Diagrammed `compose` and diagrammed `map` on Array & Optional. [Map.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860744/Map.playground.zip)
 
@@ -126,7 +126,7 @@ We watched and discussed the first episode of [Point-Free's SwiftUI series](http
 
 2018-10-23: Type algebra
 
-2018-10-16: Applying 'Applicative' to iOS News's 'Rules.Result'
+2018-10-16: Applying `Applicative` to iOS News’s `Rules.Result`
 
 2018-10-09: Rediscovering map and flatMap in callbacks; https://vimeo.com/292702159; [Oct 2 & 9 Playgrounds.zip](https://github.com/loganmoseley/functional-minutes/files/3860740/Oct.2.9.Playgrounds.zip)
 
@@ -136,7 +136,7 @@ We watched and discussed the first episode of [Point-Free's SwiftUI series](http
 
 2018-09-18: Globals in NYTSwiftFoundation and in News.app
 
-2018-09-11: Jim's styling ruleset DSL
+2018-09-11: Jim’s styling ruleset DSL
 
 2018-09-04: DSL practice ([pointfree.co #27](https://www.pointfree.co/episodes/ep27-domain-specific-languages-part-2))
 
@@ -144,7 +144,7 @@ We watched and discussed the first episode of [Point-Free's SwiftUI series](http
 
 2018-08-21: Expression problem; [Expression Problem 2.playground.zip](https://github.com/loganmoseley/functional-minutes/files/3860739/Expression.Problem.2.playground.zip)
 
-2018-08-13: Profunctor the idea and an example: Logan's type-safe key-value store idea, `StoreQuery`
+2018-08-13: Profunctor the idea and an example: Logan’s type-safe key-value store idea, `StoreQuery`
 
 2018-08-07: Lambda calculus, Lambda cube, polymorphism (subtyping, ad hoc), type operators (kinds), dependent types
 
@@ -166,7 +166,7 @@ We watched and discussed the first episode of [Point-Free's SwiftUI series](http
 
 2018-05-14: reviewed examples from Crossword and Newsreader of the more "functional" style
 
-2018-05-08: motivate and diagram 'map' and 'flatMap' (Jim R and Craig H are new)
+2018-05-08: motivate and diagram `map` and `flatMap` (Jim R and Craig H are new)
 
 2018-05-01: (Skipped. Logan was out.)
 
