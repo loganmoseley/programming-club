@@ -2,6 +2,14 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
+2020-03-10: We worked through Apple's [first tutorial](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views) in their series of SwiftUI intro tutorials that launched at WWDC. We also looked at Paul Hudson's [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/), but it seemed too "bottom-up," in the sense that it had detailed information on each component, but lacked a more holistic view of how to build more complete things.
+
+We also mentioned:
+
+- Paul Hudson's [100 Days of SwiftUI](https://www.hackingwithswift.com/100/), a series of medium-complexity tutorials that build on each other to teach you how to make a few simple apps and games.
+- [`UIViewPreviewProvider`](https://github.com/mrabiciu/UIViewPreviewProvider), an open-source repo that lets you use SwiftUI previews while developing non-SwiftUI apps.
+- An [NSHipster Post](https://nshipster.com/swiftui-previews/) on a similar idea of using SwiftUI previews in non-SwiftUI development, but with a different approach. Somewhere between these two lies a nice and usable system ;)
+
 2020-03-03: Having ended the iDine project, Paul Hudson wanted to walk us through the Xcode project template and some view modifiers. We followed [here](https://www.hackingwithswift.com/quick-start/swiftui/whats-in-the-basic-template) through and including [here](https://www.hackingwithswift.com/quick-start/swiftui/how-to-adjust-the-way-an-image-is-fitted-to-its-space).
 
 2020-02-25: We followed [here](https://www.hackingwithswift.com/quick-start/swiftui/presenting-an-alert) through [here](https://www.hackingwithswift.com/quick-start/swiftui/wrap-up-our-swiftui-project-is-complete). We learned about alerts, editing tables, and got a few "challenges" from Paul. [iDine 2020-02-25.zip](https://github.com/loganmoseley/functional-minutes/files/4283539/iDine.2020-02-25.zip)
