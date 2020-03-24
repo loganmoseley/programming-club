@@ -2,6 +2,8 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
+2020-03-24: We worked through Apple’s third tutorial on SwiftUI: [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input). We basically learned how to pass around a brute-force state: `@EnvironmentObject`. Cool, but how should a larger app handle state, handle limiting what each view needs to know about?
+
 2020-03-17: We worked through Apple’s second tutorial on SwiftUI: [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation). It was kinda boring, but only because this is the third or fourth time we’ve done lists! We also saw how to change previews within in PreviewProvider.
 
 2020-03-10: We worked through Apple’s [first tutorial](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views) in their series of SwiftUI intro tutorials that launched at WWDC. We also looked at Paul Hudson’s [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/), but it seemed too "bottom-up," in the sense that it had detailed information on each component, but lacked a more holistic view of how to build more complete things.
