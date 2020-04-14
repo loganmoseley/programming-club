@@ -2,6 +2,8 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
+2020-04-14: Zev showed us his Mini in SwiftUI project. Very cool! We talked about one advantage of SwiftUI layout versus Auto-Layout: composition/encapsulation. There’s no spooky action at a distance. That’s because Auto-Layout constraints for all views are in the linear solver all at once. We also talked about GeometryReader, combining HStack & Spacer, and [netsplit.com](https://netsplit.com/).
+
 2020-03-31:
 
 We looked at a challenge from [Swift Over Coffee](https://github.com/twostraws/SwiftOverCoffee), which asked listeners to build the Apple Watch "breathe" animation in 1 hour. We worked through [Paul Hudson's submission](https://gist.github.com/twostraws/c69e4080099ae7ac45bfd9b1e15a4269) to see how it worked, then experimented with animation code on our own.
