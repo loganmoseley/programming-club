@@ -2,6 +2,125 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
+2020-03-31:
+
+We looked at a challenge from [Swift Over Coffee](https://github.com/twostraws/SwiftOverCoffee), which asked listeners to build the Apple Watch "breathe" animation in 1 hour. We worked through [Paul Hudson's submission](https://gist.github.com/twostraws/c69e4080099ae7ac45bfd9b1e15a4269) to see how it worked, then experimented with animation code on our own.
+
+<details>
+ <summary>Paul Hudson's submission</summary>
+
+```swift
+//
+// Gasp – a quick clone of the watchOS Breathe UI, for Swift Over Coffee
+// https://github.com/twostraws/SwiftOverCoffee
+//
+import SwiftUI
+
+struct ContentView: View {
+    @State private var flowerOut = false
+
+    var body: some View {
+        ZStack {
+            Color.black.edgesIgnoringSafeArea(.all)
+
+            ZStack {
+                ForEach(0..<6) {
+                    Circle()
+                        .foregroundColor(Color(red: 0.6, green: 0.9, blue: 0.8))
+                        .frame(width: 200, height: 200)
+                        .offset(x: self.flowerOut ? 100 : 0)
+                        .rotationEffect(.degrees(Double($0) * 60))
+                        .blendMode(.hardLight)
+                }
+            }
+            .rotationEffect(.degrees(flowerOut ? 120 : 0))
+            .scaleEffect(flowerOut ? 1 : 0.25)
+            .animation(Animation.easeInOut(duration: 4).delay(0.75).repeatForever(autoreverses: true))
+            .onAppear() {
+                self.flowerOut.toggle()
+            }
+        }
+    }
+}
+```
+</details>
+
+<details>
+ <summary>Our first animation test</summary>
+
+```swift
+import SwiftUI
+
+struct AnimatedView: View {
+
+    @State var far: Bool = false
+
+    var body: some View {
+        VStack {
+            HStack(spacing: self.far ? 100 : 10) {
+                Text("Hello,")
+                Text("World")
+                    .rotation3DEffect(.degrees(self.far ? 180 : 0), axis: (x: 1, y: 1, z: 0))
+            }
+            .animation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true))
+            Button(action: {
+                self.far.toggle()
+            }) {
+                Text("Change stuff")
+            }
+        }
+        .onAppear() {
+            self.far.toggle()
+        }
+    }
+}
+
+struct AnimatedView_Previews: PreviewProvider {
+    static var previews: some View {
+        AnimatedView()
+    }
+}
+```
+</details>
+
+<details>
+ <summary>Our nearly-working SwiftUI loading spinner. Need to figure out why it doesn't loop correctly</summary>
+
+```swift
+import SwiftUI
+
+struct Spinner: View {
+
+    @State private var someBool = false
+
+    var body: some View {
+        ZStack {
+            ForEach(0..<12) {
+                Capsule()
+                    .foregroundColor(self.someBool ? Color.blue : Color.red)
+                    .frame(width: 10, height: 30)
+                    .offset(x: 0, y: 40)
+                    .rotationEffect(.degrees(Double($0) * 30))
+                    .animation(Animation.easeOut(duration: 0.2)
+                        .delay(1.0 / 12 * Double($0))
+                        .repeatForever(autoreverses: false)
+                )
+            }
+        }
+        .onAppear() {
+            self.someBool.toggle()
+        }
+    }
+}
+
+struct Spinner_Previews: PreviewProvider {
+    static var previews: some View {
+        Spinner()
+    }
+}
+```
+</details>
+
 2020-03-24: We worked through Apple’s third tutorial on SwiftUI: [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input). We basically learned how to pass around a brute-force state: `@EnvironmentObject`. Cool, but how should a larger app handle state, handle limiting what each view needs to know about?
 
 2020-03-17: We worked through Apple’s second tutorial on SwiftUI: [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation). It was kinda boring, but only because this is the third or fourth time we’ve done lists! We also saw how to change previews within in PreviewProvider.
