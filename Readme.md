@@ -2,6 +2,8 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
+2020-04-21: We broke into small groups to build a UISwitch replacement. We got experience with `@State` vs `@Binding`, saw how `Circle`’s frame works, saw `.onTapGesture { … }`, and learned to not name your project a SwiftUI reserved word! Example project: [SwitchUI.zip](https://github.com/loganmoseley/programming-club/files/4512627/SwitchUI.zip).
+
 2020-04-14: Zev showed us his Mini in SwiftUI project. Very cool! We talked about one advantage of SwiftUI layout versus Auto-Layout: composition/encapsulation. There’s no spooky action at a distance. That’s because Auto-Layout constraints for all views are in the linear solver all at once. We also talked about GeometryReader, combining HStack & Spacer, and [netsplit.com](https://netsplit.com/).
 
 2020-03-31:
