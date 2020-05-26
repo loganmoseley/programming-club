@@ -2,6 +2,8 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
+2020-05-12: We started implementing [NYT’s Tiles](https://www.nytimes.com/puzzles/tiles) in SwiftUI. We got as far as a static grid of emoji in squares. [EmojiTiles.zip](https://github.com/loganmoseley/programming-club/files/4685087/EmojiTiles.zip)
+
 2020-05-05: We programmed as a group to build a slider component. We got a nub on a bar attached to an `@Binding` value. We moved the nub with `DragGesture().onChanged`. We hit snags in positioning, which we solved with a `GeometryReader`. Project: [Eric the Slider.zip](https://github.com/loganmoseley/programming-club/files/4600116/Eric.the.Slider.zip)
 
 2020-04-28: We programmed as a group to build a radio button component. One person drove, and other people took turns navigating. We got more experience with `@State` and `@Binding`, and breaking out views into smaller components. We reused the `BindingProvider` from the previous project to change a binding value in preview. We hit a small snag with getting our view to update when breaking out `RadioItem` into its own component. Project: [RadioButton.zip](https://github.com/loganmoseley/programming-club/files/4548510/RadioButton.zip)
