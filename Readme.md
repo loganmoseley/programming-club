@@ -2,6 +2,8 @@ I run a functional programming weekly meeting called "FP Club" at The New York T
 
 # SwiftUI Club minutes
 
+2020-05-26: We continued implementing [NYT’s Tiles](https://www.nytimes.com/puzzles/tiles) in SwiftUI. After much trial, we got matching tiles to clear their emoji! We learned the hard way how to compare two tiles in the `.onTap`. [EmojiTiles 2.zip](https://github.com/loganmoseley/programming-club/files/4685088/EmojiTiles.2.zip)
+
 2020-05-12: We started implementing [NYT’s Tiles](https://www.nytimes.com/puzzles/tiles) in SwiftUI. We got as far as a static grid of emoji in squares. [EmojiTiles.zip](https://github.com/loganmoseley/programming-club/files/4685087/EmojiTiles.zip)
 
 2020-05-05: We programmed as a group to build a slider component. We got a nub on a bar attached to an `@Binding` value. We moved the nub with `DragGesture().onChanged`. We hit snags in positioning, which we solved with a `GeometryReader`. Project: [Eric the Slider.zip](https://github.com/loganmoseley/programming-club/files/4600116/Eric.the.Slider.zip)
